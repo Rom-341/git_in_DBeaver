@@ -1,0 +1,36 @@
+{
+	"folders": {},
+	"connections": {
+		"postgres-jdbc-18cc4e99430-2d036e960922db04": {
+			"provider": "postgresql",
+			"driver": "postgres-jdbc",
+			"name": "m_s",
+			"save-password": true,
+			"virtual-model-id": "postgres-jdbc-18cba76f855-4885ddcadde4d829",
+			"configuration": {
+				"host": "localhost",
+				"port": "5432",
+				"database": "m_s",
+				"url": "jdbc:postgresql://localhost:5432/m_s",
+				"configurationType": "MANUAL",
+				"home": "postgresql-x64-16",
+				"type": "dev",
+				"auth-model": "native"
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Разработка",
+			"color": "255,255,255",
+			"description": "База данных для разработки",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false,
+			"smart-commit": false,
+			"smart-commit-recover": false,
+			"auto-close-transactions": true,
+			"close-transactions-period": 1800
+		}
+	}
+}
